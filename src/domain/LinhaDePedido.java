@@ -2,12 +2,16 @@ package domain;
 
 public class LinhaDePedido {
 
+    private Integer quantidade;
+
+    private Produto produto;
+
     public Integer obterQuantidade() {
-        return null;
+        return quantidade;
     }
 
     public Produto obterProduto() {
-        return null;
+        return produto;
     }
     
 }
